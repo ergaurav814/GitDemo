@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+      <class name="Mavenjava.MavenTesting.SeleniumTest">
+        <test-method status="PASS" signature="test4()[pri:0, instance:Mavenjava.MavenTesting.SeleniumTest@491666ad]" name="test4" duration-ms="1" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Mavenjava.MavenTesting.SeleniumTest -->
+      <class name="Mavenjava.MavenTesting.AppiumTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Mavenjava.MavenTesting.AppiumTest@3b2c72c2]" name="test" duration-ms="3" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:Mavenjava.MavenTesting.AppiumTest@3b2c72c2]" name="test6" duration-ms="1" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- Mavenjava.MavenTesting.AppiumTest -->
+      <class name="Mavenjava.MavenTesting.AppTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:Mavenjava.MavenTesting.AppTest@1b68b9a4]" name="test2" duration-ms="6" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Mavenjava.MavenTesting.AppTest -->
+      <class name="Mavenjava.MavenTesting.RestassuredTest">
+        <test-method status="PASS" signature="ApiTest()[pri:0, instance:Mavenjava.MavenTesting.RestassuredTest@4f9a3314]" name="ApiTest" duration-ms="0" started-at="2020-03-29T22:16:00Z" finished-at="2020-03-29T22:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiTest -->
+      </class> <!-- Mavenjava.MavenTesting.RestassuredTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

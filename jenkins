@@ -1,0 +1,7 @@
+generally in real time companies host jenkins on servers but here we cannt do this
+jenkins is for conitnuation integration tools by which we can push code, trigger test cases and many more activities
+we will use .war file for the system because we are using jenkins as a window service and not hosting it to any web server
+java -jar jenkins.war -httpPort=8080
+in jenkin we can configure maven framework completely
+for maven and java dependency we can set path from GLOBAL TOOL CONFIGURATION which can be assesed from MANAGE GENKINS 
+under CONFIGURE option which present under the project we made in jenkins we can set path and give goal(testrun command) to execute the results.

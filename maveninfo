@@ -1,0 +1,11 @@
+maven is an automation tool which we can integrate with jenkins to execute the tests in one go
+if you want to run the the test cases in maven through cmd then the class name should end with "test" keyword
+to create testng.xml file we can select project and by doing right click on it we can go to testng then we can select convert to testng
+by using testng xml suite maven dependency we can run a particular tetng xml file through maven from cmd( just refer pom.xml for the code)
+we have to put this dependency under sure fire plugin 
+mvn -Dtest=TestCircle test (this command helps us to run an individual class among multiple classes present in maven project
+
+we can switch between the tests by making different profiles like in this project in pom.xml i made two different profiles for smoke and regression tests
+to run these profiles from cmd we need to use "mvn test -PSmoke "  this is the command . after P we can ention our profile name
+under the profile tag we need to make profiles and we need to copy the code from <build> tag
+testng is regression and testng2 is smoke profile 
